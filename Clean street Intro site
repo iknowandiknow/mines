@@ -1,0 +1,1 @@
+mkdir -p hsapiens-snps/{data/{raw,tidy},refs,src,bin,analysis,figures}
