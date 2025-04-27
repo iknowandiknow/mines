@@ -7,11 +7,12 @@ background {
       position: relative;
     }
     
-background::after {
+.background::after {
         content: '';
         position: absolute;
         top: 0; left: 0; right: 0; bottom: 0;
         background-color: rgba(173, 216, 225, 0.7); /* Blue with 70% transparency */
+        z-index: 0;
     }
 h1 {
       color: navy;
