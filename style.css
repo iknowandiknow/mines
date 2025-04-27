@@ -1,4 +1,4 @@
-body {
+background {
   background-image: url('new-york-4285256_1280.jpg');
   font-family: Arial, sans-serif;
   text-align: center;
@@ -7,7 +7,7 @@ body {
   position: relative;
 }
 
-body::after {
+background::after {
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
