@@ -1,6 +1,4 @@
-<body>
-  <div class="background">
-    background {
+background {
       background-image: url('new-york-4285256_1280.jpg');
       font-family: Arial, sans-serif;
       text-align: center;
@@ -9,16 +7,19 @@
       position: relative;
     }
     
-    background::after {
+background::after {
         content: '';
         position: absolute;
         top: 0; left: 0; right: 0; bottom: 0;
         background-color: rgba(173, 216, 225, 0.7); /* Blue with 70% transparency */
     }
-    </div>
-    h1 {
+h1 {
       color: navy;
-    }
-    p {
+      position: relative;
+      z-index: 1;
+}
+p {
       color: darkslategray;
-    }
+      position: relative;
+      z-index: 1;
+}
