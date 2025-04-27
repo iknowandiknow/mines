@@ -1,7 +1,8 @@
 body {
-  background-color: #f0f0f0;
+  background-image: url('your-image.jpg');
   font-family: Arial, sans-serif;
   text-align: center;
+  filter: opacity(50%);
 }
 h1 {
   color: navy;
