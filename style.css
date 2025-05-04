@@ -14,12 +14,12 @@
 }
     }
 h1 {
-      color: navy;
+      color: black;
       position: relative;
       z-index: 1;
 }
 p {
-      color: darkslategray;
+      color: green;
       position: relative;
       z-index: 1;
 }
